@@ -5,12 +5,12 @@ pipeline {
         }
     }
     environment {
-        APP_NAME = "python-calculator"
+        APP_NAME = "Jenkins-Docker-Pipeline"
     }
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Jenkins-Docker-Pipeline/python-calculator.git' // Change this to your repo
+                git 'https://github.com/sdutta24/Jenkins-Docker-Pipeline' // Change this to your repo
             }
         }
         stage('Install Dependencies') {
