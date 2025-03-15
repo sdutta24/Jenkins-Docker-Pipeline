@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/sdutta24/Jenkins-Docker-Pipeline' // Change this to your repo
+                git 'https://github.com/sdutta24/Jenkins-Docker-Pipeline.git' // Change this to your repo
             }
         }
         stage('Install Dependencies') {
